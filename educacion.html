@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hoja de Vida de Martín Nureña - Educación</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo-martin-educacion.svg" alt="logo" width="200px">
+        <h1>Curriculum Vitae</h1>
+        <h2>Datos Personales</h2>
+        <h3>Nombres y Apellidos:</h3>
+        Jorge Martín Nureña Torres
+        <h3>Fecha de Nacimiento:</h3> 21 de mayo de 1976
+        <h3>Lugar de Nacimiento:</h3> Cajamarca, Perú
+        <nav>
+            <a href="index.html">Inicio</a> | <a href="#">Estudios Realizados</a> | <a href="experiencia.html">Experiencia Profesional</a> |
+        </nav>
+    </header>
+
+    <section>
+        <article>
+            <h2>Educación</h2>
+            <style>/* Asignamos un borde a las etiquetas td Y th */
+                table {border-collapse: collapse;}
+                td, th {border: 1px solid black;}
+            </style>
+            <table>
+                <thead>Estudios Realizados</thead>
+                <tr>
+                    <th>Año</th>
+                    <th>Institución</th>
+                    <th>Lugar</th>
+                    <th>¿Culminó?</th>
+                </tr>
+                <tr>
+                    <td>2000</td>
+                    <td>Universidad Nacional de Cajamarca</td>
+                    <td>Cajamarca, Perú</td>
+                    <td>Programación en Basic</td>
+                </tr>
+                <tr>
+                    <td>2001</td>
+                    <td>Universidad Nacional de Cajamarca</td>
+                    <td>Cajamarca, Perú</td>
+                    <td>Programación en Pascal</td>
+                </tr>
+                <tr>
+                    <td>2003</td>
+                    <td>SENATI</td>
+                    <td>Cajamarca, Perú</td>
+                    <td>Computación e Informática</td>
+                </tr>
+                <tr>
+                    <td>2005</td>
+                    <td>ISEL</td>
+                    <td>Cajamarca, Perú</td>
+                    <td>Reparación y Ensamblaje de Computadoras</td>
+                </tr>
+                <tr>
+                    <td>2010</td>
+                    <td>SENCICO</td>
+                    <td>Cajamarca, Perú</td>
+                    <td>Diseño Gráfico por Computadora</td>
+                </tr>
+                <tr>
+                    <td>2016</td>
+                    <td>ED-Team</td>
+                    <td>Perú</td>
+                    <td>HTML y CSS</td>
+                </tr>
+            </table>
+            <br>
+        </article>
+        <form  action="" method="post">
+            <label>Agregar Estudios</label>
+            <label for="year">Año:</label>
+            <select name="year">
+                <option value="10">2010</option>
+                <option value="11">2011</option>
+                <option value="12">2012</option>
+                <option value="13">2013</option>
+                <option value="14">2014</option>
+                <option value="15">2015</option>
+                <option value="16">2016</option>
+                <option value="17">2017</option>
+                <option value="18">2018</option>
+            </select><br><br>
+            <label for="institut">Institución:</label>
+            <input type="input" placeholder="Institución educativa" name="institut" required><br><br>
+            <label for="lugar">Lugar:</label>
+            <input type="input" placeholder="Lugar" name="lugar" required><br><br>
+            <button type="submit" name="enviar" >Enviar</button>
+
+
+                
+
+        </form>
+    </section>
+    
+    <footer>
+        <p>Email: <a href="mailto:jmartin.nt@gmail.com">jmartin.nt@gmail.com</a></p>
+        <p>Teléfono:+55 076 997543801</p>
+        <p>facebook: <a href="https://www.facebook.com/martin.nurena.3">https://www.facebook.com/martin.nurena.3</a></p>
+    </footer>
+</body>
+</html>
